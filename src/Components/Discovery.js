@@ -3,7 +3,7 @@ import { AiFillHome, AiFillDashboard, AiOutlineLogin } from "react-icons/ai";
 import { RiSearchFill, RiLoginCircleFill } from "react-icons/ri";
 import { BiCameraMovie } from "react-icons/bi";
 
-function Navbar() {
+function Discovery() {
   return (
     <div class="container">
       <div class="row">
@@ -12,7 +12,7 @@ function Navbar() {
             href="/"
             class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
           >
-            <span class="fs-4">Film Dunyasi</span>
+            <span class="fs-4">Kesfet</span>
           </a>
           <hr />
           <ul class="nav nav-pills flex-column mb-auto">
@@ -64,4 +64,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Discovery;

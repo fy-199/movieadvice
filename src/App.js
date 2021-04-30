@@ -1,12 +1,12 @@
-import Navbar from "./Components/Navbar";
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Button from "react-bootstrap/Button";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
-      <Button>Test</Button>
     </div>
   );
 }

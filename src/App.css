@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+.netflix-red {
+  /* background-color: #e50914; */
+  /* background-color: crimson; */
+}
+.netflix-black {
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-dark {
+  color: crimson;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-style .navbar-brand {
+  color: crimson;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-style a {
+  color: crimson;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-style a:hover {
+  color: crimson;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-whatever {
+  color: crimson !important;
+  border-color: crimson !important;
 }
